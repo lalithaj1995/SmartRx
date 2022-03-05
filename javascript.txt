@@ -1,0 +1,104 @@
+let JsonStructure = {
+    "ActiveMedications": "(3)",
+    "PName": "Joyneel Acharya",
+    "DateOfBirth": "16 May 1991",
+    "DateOfIssue": "30 Nov 2020",
+    "results": [{
+            "Medication": "IBUPROFEN 600MG TAB",
+            "ReasonForMedication": "For Treatment of Lower BackPain",
+            "Dose": "1 ",
+            "TimesPerDay": "4 ",
+            "Hours": "4 ",
+            "PossibleSideEffects": ["Headache", "Dizziness"]
+        },
+        {
+            "Medication": "INSULIN,GLARGINE,HUMAN 100 UNT/ML INJ",
+            "ReasonForMedication": "Reduce Blood Pressure",
+            "Dose": "1 ",
+            "PossibleSideEffects": ["Headache", "Fatigue", "Nausea"]
+        },
+        {
+            "Medication": "TERAZOSIN HCL 2MG CAPSULE",
+            "ReasonForMedication": "For Treatment of symptoms of an enlarged prostate",
+            "Dose": "3 ",
+            "PossibleSideEffects": ["Headache", "Dizziness", "Fatigue", "Loss of appetite", "Constipation"]
+        },
+
+    ]
+}
+
+let three = document.getElementById("three")
+three.textContent = JsonStructure.ActiveMedications
+
+let patientName = document.getElementById("patientName")
+patientName.textContent = JsonStructure.PName
+
+let dateOfBirth = document.getElementById("dateOfBirth")
+dateOfBirth.textContent = JsonStructure.DateOfBirth
+
+let dateOfIssue = document.getElementById("dateOfIssue")
+dateOfIssue.textContent = JsonStructure.DateOfIssue
+
+let firstMedicineName = document.getElementById("firstMedicineName")
+firstMedicineName.textContent = JsonStructure.results[0].Medication
+
+let reasonForFirstMedication = document.getElementById("reasonForFirstMedication")
+reasonForFirstMedication.textContent = JsonStructure.results[0].ReasonForMedication
+
+let firstMedicineDose = document.getElementById("firstMedicineDose")
+firstMedicineDose.textContent = JsonStructure.results[0].Dose
+
+let firstMedicineTimesPerDay = document.getElementById("firstMedicineTimesPerDay")
+firstMedicineTimesPerDay.textContent = JsonStructure.results[0].TimesPerDay
+
+let firstMedicineHours = document.getElementById("firstMedicineHours")
+firstMedicineHours.textContent = JsonStructure.results[0].Hours
+
+let firstMedicineFirstSideEffect = document.getElementById("firstMedicineFirstSideEffect")
+firstMedicineFirstSideEffect.textContent = JsonStructure.results[0].PossibleSideEffects[0]
+
+let firstMedicineSecondSideEffect = document.getElementById("firstMedicineSecondSideEffect")
+firstMedicineSecondSideEffect.textContent = JsonStructure.results[0].PossibleSideEffects[1]
+
+let secondMedicineName = document.getElementById("secondMedicineName")
+secondMedicineName.textContent = JsonStructure.results[1].Medication
+
+let reasonForSecondMedication = document.getElementById("reasonForSecondMedication")
+reasonForSecondMedication.textContent = JsonStructure.results[1].ReasonForMedication
+
+let secondMedicineDose = document.getElementById("secondMedicineDose")
+secondMedicineDose.textContent = JsonStructure.results[1].Dose
+
+
+let secondMedicineFirstSideEffect = document.getElementById("secondMedicineFirstSideEffect")
+secondMedicineFirstSideEffect.textContent = JsonStructure.results[1].PossibleSideEffects[0]
+
+let secondMedicineSecondSideEffect = document.getElementById("secondMedicineSecondSideEffect")
+secondMedicineSecondSideEffect.textContent = JsonStructure.results[1].PossibleSideEffects[1]
+
+let secondMedicineThirdSideEffect = document.getElementById("secondMedicineThirdSideEffect")
+secondMedicineThirdSideEffect.textContent = JsonStructure.results[1].PossibleSideEffects[2]
+
+let thirdMedicineName = document.getElementById("thirdMedicineName")
+thirdMedicineName.textContent = JsonStructure.results[2].Medication
+
+let reasonForThirdMedication = document.getElementById("reasonForThirdMedication")
+reasonForThirdMedication.textContent = JsonStructure.results[2].ReasonForMedication
+
+let thirdMedicineDose = document.getElementById("thirdMedicineDose")
+thirdMedicineDose.textContent = JsonStructure.results[2].Dose
+
+let thirdMedicineFirstSideEffect = document.getElementById("thirdMedicineFirstSideEffect")
+thirdMedicineFirstSideEffect.textContent = JsonStructure.results[2].PossibleSideEffects[0]
+
+let thirdMedicineSecondSideEffect = document.getElementById("thirdMedicineSecondSideEffect")
+thirdMedicineSecondSideEffect.textContent = JsonStructure.results[2].PossibleSideEffects[1]
+
+let thirdMedicineThirdSideEffect = document.getElementById("thirdMedicineThirdSideEffect")
+thirdMedicineThirdSideEffect.textContent = JsonStructure.results[2].PossibleSideEffects[2]
+
+let thirdMedicineFourthSideEffect = document.getElementById("thirdMedicineFourthSideEffect")
+thirdMedicineFourthSideEffect.textContent = JsonStructure.results[2].PossibleSideEffects[3]
+
+let thirdMedicineFifthSideEffect = document.getElementById("thirdMedicineFifthSideEffect")
+thirdMedicineFifthSideEffect.textContent = JsonStructure.results[2].PossibleSideEffects[4]

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: #fcfdff;
+    padding: 20px;
+    background-size: cover;
+    width: 100vw;
+}
+
+.medications {
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.active-medications {
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.image {
+    height: 30px;
+    width: 30px;
+}
+
+.heading {
+    color: #d3d5db;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20;
+}
+
+.details {
+    color: black;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 23;
+}
+
+.bordertop {
+    border-top: 1px dashed black;
+}
+
+.borderleft {
+    border-left: 1px dashed black;
+}
+
+.ovel {
+    height: 45px;
+    width: 69px;
+    background-color: #d3d5db;
+    border-radius: 50%;
+    border: 1px solid black;
+
+}
+
+.rectangle-container {
+    height: 20px;
+    width: 200px;
+    background-color: #d3d5db;
+    border: 1px solid black;
+
+}
+
+.rectangle-container {
+    width: 200px;
+}
+
+.medicine-name {
+    color: #898a8f;
+    font-weight: bold;
+    font-family: "Breeserif";
+    font-size: 15px;
+}
+
+.side {
+    color: #898a8f;
+    font-size: 12px;
+    font-family: "Breeserif";
+    text-align: left;
+}
+
+.dose {
+    color: #898a8f;
+    font-size: 15px;
+    font-family: "Breeserif";
+
+}
+
+.reason {
+    color: #898a8f;
+    font-size: 13px;
+    font-family: "Breeserif";
+    font-weight: bold;
+}
+
+.treatment {
+    color: black;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: "Roboto";
+    margin: 0px;
+}
+
+.tablet-consumption {
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Breeserif";
+    text-align: left;
+}
+
+.time {
+    color: #626366;
+    font-size: 10px;
+    font-weight: normal;
+    font-family: "Breeserif";
+}
+
+.sun-moon {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+.side-effects {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    font-family: "Breeserif";
+}
+
+.reason-of-medical-help {
+    color: #353638;
+    font-size: 12px;
+    font-family: "Breeserif";
+    font-style: italic;
+    font-weight: bold
+}
+
+.injection {
+    height: 70px;
+    width: 80px;
+}
+
+.yellow-capsule {
+    height: 45px;
+    width: 69px;
+}
+
+.bold {
+    font-weight: bold;
+}
